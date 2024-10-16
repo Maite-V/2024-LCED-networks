@@ -79,6 +79,9 @@ model <- lmerTest::lmer(ClayThick ~ Type + (1 | Point), data = AllData)
 summary(model)
 
 # test if the bare soil cover is different
+model_soil <- lmerTest::lmer(BareCov ~ Type + (1 | Point), data = AllData)
+# Display the summary of the model
+summary(model_soil)
 
 # test if the species community composition is different with a permanova
 
