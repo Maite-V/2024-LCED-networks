@@ -30,6 +30,8 @@ cheddar::PlotWebByLevel(TL84,
                         highlight.links=TrophicLinksForNodes(TL84,"Daphnia pulex"),
                         link.lwd=2)
 
+#Inspect the links
+linksTL84<-data.frame(TL84$trophic.links)
 
 
 # show a weighted network
