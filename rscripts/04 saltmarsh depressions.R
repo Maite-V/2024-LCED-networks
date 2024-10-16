@@ -1,8 +1,6 @@
 #### analysis of the saltmarsh data we collected on monday with the LCED course
 # this is the script of Maite Vogel for the LCED course on Schier
 
-# test！
-
 # clear everything in the R environment
 rm(list = ls())
 renv::restore()  # restore the library
